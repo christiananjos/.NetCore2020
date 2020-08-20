@@ -5,9 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Maps\" />
     <Folder Include="Migrations\" />
-    <Folder Include="Seeds\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,6 +15,10 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pizzaria.Model\Pizzaria.Model.csproj" />
   </ItemGroup>
 
 </Project>

@@ -7,7 +7,6 @@ C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.API
 C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.API\bin\Debug\netcoreapp3.1\Pizzaria.API.runtimeconfig.dev.json
 C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.API\bin\Debug\netcoreapp3.1\Pizzaria.API.dll
 C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.API\bin\Debug\netcoreapp3.1\Pizzaria.API.pdb
-C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.API\obj\Debug\netcoreapp3.1\Pizzaria.API.csprojAssemblyReference.cache
 C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.API\obj\Debug\netcoreapp3.1\Pizzaria.API.AssemblyInfoInputs.cache
 C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.API\obj\Debug\netcoreapp3.1\Pizzaria.API.AssemblyInfo.cs
 C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.API\obj\Debug\netcoreapp3.1\Pizzaria.API.csproj.CoreCompileInputs.cache
