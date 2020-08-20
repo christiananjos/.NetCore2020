@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{857A9284-4378-4071-B2B9-8A4D5C1DDAB4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Model", "1 - Model", "{857A9284-4378-4071-B2B9-8A4D5C1DDAB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Infra", "2 - Infra", "{BFF91B26-5B1E-4E44-9CB5-8FA290FB7BC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Business", "3 - Business", "{D625E38D-B1D6-4A19-8F03-9E5478A0BDB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - API", "4 - API", "{4DD2D8B0-B557-4E81-8DDC-BD532A6C2BFE}"
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
