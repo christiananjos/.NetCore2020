@@ -1,9 +1,11 @@
 C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.Data\bin\Debug\netcoreapp3.1\Pizzaria.Data.deps.json
 C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.Data\bin\Debug\netcoreapp3.1\Pizzaria.Data.dll
 C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.Data\bin\Debug\netcoreapp3.1\Pizzaria.Data.pdb
-C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.Data\obj\Debug\netcoreapp3.1\Pizzaria.Data.csprojAssemblyReference.cache
 C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.Data\obj\Debug\netcoreapp3.1\Pizzaria.Data.AssemblyInfoInputs.cache
 C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.Data\obj\Debug\netcoreapp3.1\Pizzaria.Data.AssemblyInfo.cs
-C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.Data\obj\Debug\netcoreapp3.1\Pizzaria.Data.csproj.CoreCompileInputs.cache
 C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.Data\obj\Debug\netcoreapp3.1\Pizzaria.Data.dll
 C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.Data\obj\Debug\netcoreapp3.1\Pizzaria.Data.pdb
+C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.Data\bin\Debug\netcoreapp3.1\Pizzaria.Data.runtimeconfig.json
+C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.Data\bin\Debug\netcoreapp3.1\Pizzaria.Data.runtimeconfig.dev.json
+C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.Data\obj\Debug\netcoreapp3.1\Pizzaria.Data.csproj.CoreCompileInputs.cache
+C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.Data\obj\Debug\netcoreapp3.1\Pizzaria.Data.genruntimeconfig.cache
