@@ -3,12 +3,10 @@ using Pizzaria.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace Pizzaria.Business.Repositories
 {
-    public class Repository<TEntity> : IRepository<TEntity>
-           where TEntity : class, IEntity
+    public class Repository<TEntity> : IRepository<TEntity> where TEntity : class, IEntity
     {
         private readonly DataContext _context;
 
