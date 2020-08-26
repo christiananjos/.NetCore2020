@@ -1,10 +1,10 @@
-﻿using System;
+﻿using Pizzaria.Model.Interfaces;
+using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Pizzaria.Model.Models
 {
-    public class Pedido
+    public class Pedido : IEntity
     {
         public Pedido()
         {

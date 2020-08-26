@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Pizzaria.Model.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Pizzaria.Model.Models
 {
-    public class Cliente
+    public class Cliente : IEntity
     {
         public int Id { get; set; }
         public string NomeCliente { get; set; }

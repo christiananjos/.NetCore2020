@@ -1,18 +1,17 @@
-﻿using System;
+﻿using Pizzaria.Model.Interfaces;
+using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Pizzaria.Business.Interfaces
 {
-    public interface IRepository<TEntity> where TEntity : IEntity
+    public interface IRepository<T> where T : IEntity
     {
-        void Create(TEntity entity);
-        void Delete(TEntity entity);
-        void Delete(Guid id);
-        void Edit(TEntity entity);
-        TEntity GetById(Guid id);
-        IEnumerable<TEntity> Filter();
-        IEnumerable<TEntity> Filter(Func<TEntity, bool> predicate);
+        void Create(T entity);
+        void Delete(T entity);
+        void Edit(T entity);
+        T GetById(int id);
+        IEnumerable<T> Filter();
+        IEnumerable<T> Filter(Func<T, bool> predicate);
         void SaveChanges();
     }
 }
