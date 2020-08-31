@@ -5,7 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Migrations\" />
+    <Compile Remove="Migrations\20200831192542_Pizzaria.cs" />
+    <Compile Remove="Migrations\20200831192542_Pizzaria.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>

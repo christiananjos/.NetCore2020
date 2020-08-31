@@ -8,7 +8,9 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Pizzaria.Business.Repositories;
 using Pizzaria.Data;
+using Pizzaria.Model.Models;
 
 namespace Pizzaria.API
 {
@@ -26,6 +28,7 @@ namespace Pizzaria.API
         {
             //services.AddDbContext<DataContext>(opt => opt.use("Database"));
             services.AddScoped<DataContext, DataContext>();
+            services.AddTransient<PedidoRepository<Pedido>, PedidoRepository<Pedido>>();
             services.AddControllers();
         }
 

@@ -1,9 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Pizzaria.Model.Models;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Pizzaria.Data.Maps
 {
@@ -20,7 +17,7 @@ namespace Pizzaria.Data.Maps
                    .HasColumnType("Varchar(200)");
 
             builder.Property(x => x.NumeroCasa)
-                   .HasColumnType("Int");
+                   .HasColumnType("Varchar(20)");
 
             builder.Property(x => x.Complemento)
                    .HasColumnType("Varchar(50)");

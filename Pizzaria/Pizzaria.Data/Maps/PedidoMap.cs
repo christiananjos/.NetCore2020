@@ -21,7 +21,7 @@ namespace Pizzaria.Data.Maps
                   .HasColumnType("Money");
 
             builder.Property(x => x.DtHoraPedido)
-                  .HasColumnType("Date");
+                  .HasColumnType("Datetime");
 
 
 

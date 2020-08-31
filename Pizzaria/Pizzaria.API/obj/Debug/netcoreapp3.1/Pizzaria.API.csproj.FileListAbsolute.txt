@@ -9,8 +9,6 @@ C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.API
 C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.API\bin\Debug\netcoreapp3.1\Pizzaria.API.pdb
 C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.API\obj\Debug\netcoreapp3.1\Pizzaria.API.AssemblyInfoInputs.cache
 C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.API\obj\Debug\netcoreapp3.1\Pizzaria.API.AssemblyInfo.cs
-C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.API\obj\Debug\netcoreapp3.1\Pizzaria.API.csproj.CoreCompileInputs.cache
-C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.API\obj\Debug\netcoreapp3.1\Pizzaria.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.API\obj\Debug\netcoreapp3.1\Pizzaria.API.RazorTargetAssemblyInfo.cache
 C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.API\obj\Debug\netcoreapp3.1\staticwebassets\Pizzaria.API.StaticWebAssets.Manifest.cache
 C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.API\obj\Debug\netcoreapp3.1\staticwebassets\Pizzaria.API.StaticWebAssets.xml
@@ -62,3 +60,8 @@ C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.API
 C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.API\bin\Debug\netcoreapp3.1\Pizzaria.Model.pdb
 C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.API\obj\Debug\netcoreapp3.1\Pizzaria.API.csprojAssemblyReference.cache
 C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.API\obj\Debug\netcoreapp3.1\Pizzaria.API.csproj.CopyComplete
+C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.API\obj\Debug\netcoreapp3.1\Pizzaria.API.csproj.CoreCompileInputs.cache
+C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.API\obj\Debug\netcoreapp3.1\Pizzaria.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.API\bin\Debug\netcoreapp3.1\Pizzaria.Business.dll
+C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.API\bin\Debug\netcoreapp3.1\Pizzaria.Business.pdb

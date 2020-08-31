@@ -1,7 +1,4 @@
 ﻿using Pizzaria.Model.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Pizzaria.Model.Models
 {
