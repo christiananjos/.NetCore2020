@@ -6,3 +6,4 @@ C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.Mod
 C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.Model\obj\Debug\netcoreapp3.1\Pizzaria.Model.csproj.CoreCompileInputs.cache
 C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.Model\obj\Debug\netcoreapp3.1\Pizzaria.Model.dll
 C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.Model\obj\Debug\netcoreapp3.1\Pizzaria.Model.pdb
+C:\Users\chris\Desktop\Projetos pessoais\.Net\.NetCore2020\Pizzaria\Pizzaria.Model\obj\Debug\netcoreapp3.1\Pizzaria.Model.csprojAssemblyReference.cache
