@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Pizzaria.Data.Migrations
 {
-    public partial class Pizzaria2 : Migration
+    public partial class Pizzaria : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -13,15 +13,15 @@ namespace Pizzaria.Data.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    NomeCliente = table.Column<string>(type: "Varchar(100)", nullable: true),
+                    NomeCliente = table.Column<string>(nullable: true),
                     Cep = table.Column<string>(nullable: true),
-                    Logradouro = table.Column<string>(type: "Varchar(200)", nullable: true),
-                    NumeroCasa = table.Column<string>(type: "Varchar(20)", nullable: true),
-                    Complemento = table.Column<string>(type: "Varchar(50)", nullable: true),
-                    Bairro = table.Column<string>(type: "Varchar(50)", nullable: true),
+                    Logradouro = table.Column<string>(nullable: true),
+                    NumeroCasa = table.Column<string>(nullable: true),
+                    Complemento = table.Column<string>(nullable: true),
+                    Bairro = table.Column<string>(nullable: true),
                     Estado = table.Column<string>(nullable: true),
-                    UF = table.Column<string>(type: "Char(2)", nullable: true),
-                    Telefone = table.Column<string>(type: "Varchar(20)", nullable: true)
+                    UF = table.Column<string>(nullable: true),
+                    Telefone = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -34,11 +34,11 @@ namespace Pizzaria.Data.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    NomeUsuarioSistema = table.Column<string>(type: "Varchar(50)", nullable: false),
+                    NomeUsuarioSistema = table.Column<string>(nullable: true),
                     ClienteId = table.Column<int>(nullable: false),
-                    ValorFrete = table.Column<decimal>(type: "Money", nullable: false),
-                    ValorTotalPedido = table.Column<decimal>(type: "Money", nullable: false),
-                    DtHoraPedido = table.Column<DateTime>(type: "Datetime", nullable: false)
+                    ValorFrete = table.Column<int>(nullable: false),
+                    ValorTotalPedido = table.Column<double>(nullable: false),
+                    DtHoraPedido = table.Column<DateTime>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -57,8 +57,8 @@ namespace Pizzaria.Data.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Descrição = table.Column<string>(type: "Varchar(150)", nullable: true),
-                    Valor = table.Column<decimal>(type: "Money", nullable: false),
+                    Descrição = table.Column<string>(nullable: true),
+                    Valor = table.Column<double>(nullable: false),
                     PedidoId = table.Column<int>(nullable: true)
                 },
                 constraints: table =>

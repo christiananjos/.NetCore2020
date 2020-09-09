@@ -10,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Pizzaria.Business.Repositories;
 using Pizzaria.Data;
+using Pizzaria.Data.Seeds;
 using Pizzaria.Model.Models;
 
 namespace Pizzaria.API

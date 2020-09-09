@@ -10,8 +10,8 @@ using Pizzaria.Data;
 namespace Pizzaria.Data.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20200831203620_Pizzaria2")]
-    partial class Pizzaria2
+    [Migration("20200909150623_Pizzaria")]
+    partial class Pizzaria
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -29,31 +29,31 @@ namespace Pizzaria.Data.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Bairro")
-                        .HasColumnType("Varchar(50)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Cep")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Complemento")
-                        .HasColumnType("Varchar(50)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Estado")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Logradouro")
-                        .HasColumnType("Varchar(200)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("NomeCliente")
-                        .HasColumnType("Varchar(100)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("NumeroCasa")
-                        .HasColumnType("Varchar(20)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Telefone")
-                        .HasColumnType("Varchar(20)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UF")
-                        .HasColumnType("Char(2)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -68,13 +68,13 @@ namespace Pizzaria.Data.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Descrição")
-                        .HasColumnType("Varchar(150)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("PedidoId")
                         .HasColumnType("int");
 
-                    b.Property<decimal>("Valor")
-                        .HasColumnType("Money");
+                    b.Property<double>("Valor")
+                        .HasColumnType("float");
 
                     b.HasKey("Id");
 
@@ -94,17 +94,16 @@ namespace Pizzaria.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<DateTime>("DtHoraPedido")
-                        .HasColumnType("Datetime");
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("NomeUsuarioSistema")
-                        .IsRequired()
-                        .HasColumnType("Varchar(50)");
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("ValorFrete")
-                        .HasColumnType("Money");
+                    b.Property<int>("ValorFrete")
+                        .HasColumnType("int");
 
-                    b.Property<decimal>("ValorTotalPedido")
-                        .HasColumnType("Money");
+                    b.Property<double>("ValorTotalPedido")
+                        .HasColumnType("float");
 
                     b.HasKey("Id");
 

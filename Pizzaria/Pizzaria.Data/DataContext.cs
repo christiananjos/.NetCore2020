@@ -25,7 +25,7 @@ namespace Pizzaria.Data
             modelBuilder.ApplyConfiguration(new ClienteMap());
             modelBuilder.ApplyConfiguration(new ItemMap());
 
-            //modelBuilder.Seed();
+            //modelBuilder.Seeds();
         }
 
     }

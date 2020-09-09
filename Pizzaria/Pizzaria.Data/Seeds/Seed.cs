@@ -1,12 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Pizzaria.Model.Models;
+using System;
 using System.Collections.Generic;
 
 namespace Pizzaria.Data.Seeds
 {
-    public static class ModelBuilderExtensions
+    public static class Seed
     {
-        public static void Seed(this ModelBuilder modelBuilder)
+        public static void Seeds(this ModelBuilder modelBuilder)
         {
             //Itens para os pedidos 
             modelBuilder.Entity<Item>().HasData(
@@ -74,6 +75,8 @@ namespace Pizzaria.Data.Seeds
                 }
 
             );
+
+            //_context.SaveChanges();
         }
     }
 }
