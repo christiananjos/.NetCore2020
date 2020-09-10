@@ -27,9 +27,13 @@ namespace Pizzaria.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //services.AddDbContext<DataContext>(opt => opt.use("Database"));
+           
             services.AddScoped<DataContext, DataContext>();
+
             services.AddTransient<PedidoRepository<Pedido>, PedidoRepository<Pedido>>();
+            services.AddTransient<ClienteRepository<Cliente>, ClienteRepository<Cliente>>();
+            services.AddTransient<ClienteRepository<Cliente>, ClienteRepository<Cliente>>();
+
             services.AddControllers();
         }
 

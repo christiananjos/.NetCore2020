@@ -10,6 +10,8 @@ namespace Pizzaria.Data.Maps
         {
             builder.HasKey(x => x.Id);
 
+            builder.Property(x => x.Id).ValueGeneratedOnAdd();
+
             builder.Property(x => x.NomeCliente)
                     .HasColumnType("Varchar(100)");
 

@@ -11,13 +11,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Business", "3 - Busines
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - API", "4 - API", "{4DD2D8B0-B557-4E81-8DDC-BD532A6C2BFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizzaria.Model", "Pizzaria.Model\Pizzaria.Model.csproj", "{E05C77C1-A1C0-4761-A7BF-0D3218B0DA9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pizzaria.Model", "Pizzaria.Model\Pizzaria.Model.csproj", "{E05C77C1-A1C0-4761-A7BF-0D3218B0DA9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizzaria.Data", "Pizzaria.Data\Pizzaria.Data.csproj", "{13FC1CAD-4174-43FE-B9DB-933D9E82D2CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pizzaria.Data", "Pizzaria.Data\Pizzaria.Data.csproj", "{13FC1CAD-4174-43FE-B9DB-933D9E82D2CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizzaria.Business", "Pizzaria.Business\Pizzaria.Business.csproj", "{0A1324CF-2ACF-4206-90C7-24EF326A5A21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pizzaria.Business", "Pizzaria.Business\Pizzaria.Business.csproj", "{0A1324CF-2ACF-4206-90C7-24EF326A5A21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizzaria.API", "Pizzaria.API\Pizzaria.API.csproj", "{76F71865-1EEE-4E34-B051-3D512C80EB0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pizzaria.API", "Pizzaria.API\Pizzaria.API.csproj", "{76F71865-1EEE-4E34-B051-3D512C80EB0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Views", "5 - Views", "{97811998-F599-44B7-81E5-BD1C340371C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
