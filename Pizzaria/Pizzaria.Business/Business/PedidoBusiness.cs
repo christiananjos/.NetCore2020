@@ -23,7 +23,7 @@ namespace Pizzaria.Business.Business
             catch (Exception ex)
             {
 
-                throw ex;
+                throw new Exception("Erro ao gravar o pedido \n" + ex.StackTrace);
             }
           
         }
@@ -37,7 +37,7 @@ namespace Pizzaria.Business.Business
             catch (Exception ex)
             {
 
-                throw ex;
+                throw new Exception("Erro ao atualizar o pedido \n" + ex.StackTrace);
             }
         }
 
@@ -54,10 +54,10 @@ namespace Pizzaria.Business.Business
             catch (Exception ex)
             {
 
-                throw ex;
+                throw new Exception("Erro ao retornar os pedidos \n" + ex.StackTrace);
             }
-          
-           
+
+
         }
 
         public void RetornaPorId(int id)
@@ -69,9 +69,9 @@ namespace Pizzaria.Business.Business
             catch (Exception ex)
             {
 
-                throw ex;
+                throw new Exception("Erro ao retornar o pedido selecionado \n" + ex.StackTrace);
             }
-           
+
         }
 
         public void Remove(Pedido pedido)
@@ -83,9 +83,9 @@ namespace Pizzaria.Business.Business
             catch (Exception ex)
             {
 
-                throw ex;
+                throw new Exception("Erro ao remover o pedido \n" + ex.StackTrace);
             }
-           
+
         }
 
     }
