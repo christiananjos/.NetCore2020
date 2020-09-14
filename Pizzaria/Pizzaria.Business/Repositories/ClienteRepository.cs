@@ -29,7 +29,7 @@ namespace Pizzaria.Business.Repositories
             editedEntity = entity;
         }
 
-        public IEnumerable<Cliente> Filter()
+        public IEnumerable<Cliente> GetAll()
         {
             return _context.Set<Cliente>();
         }

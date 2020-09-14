@@ -20,7 +20,7 @@ namespace Pizzaria.API.Controllers
         [HttpGet]
         public IEnumerable<Cliente> Get()
         {
-            return _repository.Filter();
+            return _repository.GetAll();
         }
     }
 }

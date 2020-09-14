@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Pizzaria.Business.Business;
 using Pizzaria.Business.Repositories;
 using Pizzaria.Model.Models;
 using System.Collections.Generic;
@@ -9,18 +10,18 @@ namespace Pizzaria.API.Controllers
     [ApiController]
     public class PedidoController : ControllerBase
     {
-        private readonly PedidoRepository<Pedido> _repository;
+        private readonly PedidoBusiness _business;
 
-        public PedidoController(PedidoRepository<Pedido> repository)
+        public PedidoController(PedidoBusiness business)
         {
-            _repository = repository;
+            _business = business;
         }
 
         [Route("pedidos")]
         [HttpGet]
         public IEnumerable<Pedido> Get()
         {
-            return _repository.Filter();
+            return _business.RetornaTodos();
         }
     }
 }

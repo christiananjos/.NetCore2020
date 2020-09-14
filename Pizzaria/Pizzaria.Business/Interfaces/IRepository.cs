@@ -10,7 +10,7 @@ namespace Pizzaria.Business.Interfaces
         void Delete(T entity);
         void Edit(T entity);
         T GetById(int id);
-        IEnumerable<T> Filter();
+        IEnumerable<T> GetAll();
         IEnumerable<T> Filter(Func<T, bool> predicate);
         void SaveChanges();
     }
