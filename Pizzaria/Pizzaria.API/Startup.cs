@@ -1,17 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Pizzaria.Business.Business;
 using Pizzaria.Business.Repositories;
 using Pizzaria.Data;
-using Pizzaria.Data.Seeds;
 using Pizzaria.Model.Models;
 
 namespace Pizzaria.API
@@ -34,6 +28,7 @@ namespace Pizzaria.API
             services.AddTransient<PedidoRepository<Pedido>, PedidoRepository<Pedido>>();
             services.AddTransient<ClienteRepository<Cliente>, ClienteRepository<Cliente>>();
             services.AddTransient<ClienteRepository<Cliente>, ClienteRepository<Cliente>>();
+
             services.AddTransient<PedidoBusiness, PedidoBusiness>();
             services.AddTransient<ClienteBusiness, ClienteBusiness>();
             services.AddTransient<ItemBusiness, ItemBusiness>();
