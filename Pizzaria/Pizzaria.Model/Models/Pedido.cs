@@ -15,7 +15,10 @@ namespace Pizzaria.Model.Models
         
         public int ValorFrete { get; set; }
         public double ValorTotalPedido { get; set; }
-        public DateTime DtHoraPedido { get; set; }
+        public DateTime DtHoraPedido
+        {
+            get;set;
+        }
 
         public List<Item> Itens { get; set; }
 

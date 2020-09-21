@@ -7,9 +7,9 @@ namespace Pizzaria.Business.Business
 {
     public class ItemBusiness
     {
-        private readonly ItensRepository<Item> _repository;
+        private readonly ItemRepository<Item> _repository;
 
-        public ItemBusiness(ItensRepository<Item> repository)
+        public ItemBusiness(ItemRepository<Item> repository)
         {
             _repository = repository;
         }

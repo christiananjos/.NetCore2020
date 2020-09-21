@@ -27,7 +27,7 @@ namespace Pizzaria.API
 
             services.AddTransient<PedidoRepository<Pedido>, PedidoRepository<Pedido>>();
             services.AddTransient<ClienteRepository<Cliente>, ClienteRepository<Cliente>>();
-            services.AddTransient<ClienteRepository<Cliente>, ClienteRepository<Cliente>>();
+            services.AddTransient<ItemRepository<Item>, ItemRepository<Item>>();
 
             services.AddTransient<PedidoBusiness, PedidoBusiness>();
             services.AddTransient<ClienteBusiness, ClienteBusiness>();

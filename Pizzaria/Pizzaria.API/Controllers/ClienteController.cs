@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Pizzaria.Business.Business;
 using Pizzaria.Business.Repositories;
 using Pizzaria.Model.Models;
 using System.Collections.Generic;
@@ -9,18 +10,18 @@ namespace Pizzaria.API.Controllers
     [ApiController]
     public class ClienteController : ControllerBase
     {
-        private readonly ClienteRepository<Cliente> _repository;
+        private readonly ClienteBusiness _business;
 
-        public ClienteController(ClienteRepository<Cliente> repository)
+        public ClienteController(ClienteBusiness business)
         {
-            _repository = repository;
+            _business = business;
         }
 
         [Route("clientes")]
         [HttpGet]
         public IEnumerable<Cliente> Get()
         {
-            return _repository.GetAll();
+            return _business.RetornaTodos();
         }
     }
 }

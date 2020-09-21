@@ -60,11 +60,15 @@ namespace Pizzaria.Business.Business
 
         }
 
-        public void RetornaPorId(int id)
+        public Pedido RetornaPorId(int id)
         {
             try
             {
-                _repository.GetById(id);
+                var pedido = _repository.GetById(id);
+
+                if (pedido == null) return null;
+
+                return pedido;
             }
             catch (Exception ex)
             {

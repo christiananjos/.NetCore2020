@@ -7,11 +7,11 @@ using System.Linq;
 
 namespace Pizzaria.Business.Repositories
 {
-    public class ItensRepository<Itens> : IRepository<Itens> where Itens : class, IEntity
+    public class ItemRepository<Itens> : IRepository<Itens> where Itens : class, IEntity
     {
         private readonly DataContext _context;
 
-        public ItensRepository(DataContext context) => _context = context;
+        public ItemRepository(DataContext context) => _context = context;
 
         public void Create(Itens entity)
         {
