@@ -1,10 +1,9 @@
-﻿using Pizzaria.Model.Interfaces;
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace Pizzaria.Business.Interfaces
 {
-    public interface IRepository<T> where T : IEntity
+    public interface IRepository<T> where T : class
     {
         void Create(T entity);
         void Delete(T entity);

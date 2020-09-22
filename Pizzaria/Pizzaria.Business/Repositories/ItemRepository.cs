@@ -1,52 +1,50 @@
 ﻿using Pizzaria.Business.Interfaces;
 using Pizzaria.Data;
-using Pizzaria.Model.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace Pizzaria.Business.Repositories
 {
-    public class ItemRepository<Itens> : IRepository<Itens> where Itens : class, IEntity
+    public class ItemRepository<Item> : IRepository<Item> where Item : class
     {
         private readonly DataContext _context;
 
         public ItemRepository(DataContext context) => _context = context;
 
-        public void Create(Itens entity)
+        public void Create(Item entity)
         {
-            _context.Set<Itens>().Add(entity);
+            _context.Set<Item>().Add(entity);
         }
 
-        public void Delete(Itens entity)
+        public void Delete(Item entity)
         {
-            _context.Set<Itens>().Remove(entity);
+            _context.Set<Item>().Remove(entity);
         }
 
-        public void Edit(Itens entity)
+        public void Edit(Item entity)
         {
-            var editedEntity = _context.Set<Itens>().FirstOrDefault(e => e.Id == entity.Id);
-            editedEntity = entity;
+            _context.Set<Item>().Update(entity);
         }
 
-        public IEnumerable<Itens> GetAll()
+        public IEnumerable<Item> GetAll()
         {
-            return _context.Set<Itens>();
+            return _context.Set<Item>();
         }
 
-        public IEnumerable<Itens> Filter(Func<Itens, bool> predicate)
+        public IEnumerable<Item> Filter(Func<Item, bool> predicate)
         {
-            return _context.Set<Itens>().Where(predicate);
+            return _context.Set<Item>().Where(predicate);
         }
 
-        public Itens GetById(int id)
+        public Item GetById(int id)
         {
-            return _context.Set<Itens>().FirstOrDefault(e => e.Id == id);
+            return (Item)_context.Clientes.Where(x => x.Id == id);
         }
 
         public void SaveChanges()
         {
-            throw new NotImplementedException();
+            _context.SaveChanges();
         }
     }
 }

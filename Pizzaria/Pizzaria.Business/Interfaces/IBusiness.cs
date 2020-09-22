@@ -18,11 +18,6 @@
 
         }
 
-        //public List<T> Lista()
-        //{
-
-        //}
-
         public static void GetById(int id)
         {
 

@@ -17,9 +17,38 @@ namespace Pizzaria.API.Controllers
             _business = business;
         }
 
+        [Route("create")]
+        [HttpGet]
+        public IEnumerable<Cliente> Create()
+        {
+            return _business.RetornaTodos();
+        }
+
+
+        [Route("update")]
+        [HttpPost]
+        public IEnumerable<Cliente> Update()
+        {
+            return _business.RetornaTodos();
+        }
+
+        [Route("delete")]
+        [HttpPost]
+        public IEnumerable<Cliente> Delete()
+        {
+            return _business.RetornaTodos();
+        }
+
+        [Route("getById")]
+        [HttpPost]
+        public IEnumerable<Cliente> GetById(int id)
+        {
+            return _business.RetornaTodos();
+        }
+
         [Route("clientes")]
         [HttpGet]
-        public IEnumerable<Cliente> Get()
+        public IEnumerable<Cliente> GetAll()
         {
             return _business.RetornaTodos();
         }

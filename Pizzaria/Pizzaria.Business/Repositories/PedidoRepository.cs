@@ -1,13 +1,12 @@
 ﻿using Pizzaria.Business.Interfaces;
 using Pizzaria.Data;
-using Pizzaria.Model.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace Pizzaria.Business.Repositories
 {
-    public class PedidoRepository<Pedido> : IRepository<Pedido> where Pedido : class, IEntity
+    public class PedidoRepository<Pedido> : IRepository<Pedido> where Pedido : class
     {
         private readonly DataContext _context;
 
@@ -25,8 +24,7 @@ namespace Pizzaria.Business.Repositories
 
         public void Edit(Pedido entity)
         {
-            var editedEntity = _context.Set<Pedido>().FirstOrDefault(e => e.Id == entity.Id);
-            editedEntity = entity;
+            _context.Set<Pedido>().Update(entity);
         }
 
         public IEnumerable<Pedido> GetAll()
@@ -41,9 +39,12 @@ namespace Pizzaria.Business.Repositories
 
         public Pedido GetById(int id)
         {
-            return _context.Set<Pedido>().FirstOrDefault(e => e.Id == id);
+            return (Pedido)_context.Pedidos.Select(x => x.Id == id);
         }
 
-        public void SaveChanges() => _context.SaveChanges();
+        public void SaveChanges()
+        {
+            _context.SaveChanges();
+        }
     }
 }
