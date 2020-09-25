@@ -9,6 +9,7 @@ namespace Pizzaria.Data.Maps
         public void Configure(EntityTypeBuilder<Item> builder)
         {
             builder.HasKey(x => x.Id);
+            
             builder.Property(x => x.Id).ValueGeneratedOnAdd();
 
             builder.Property(x => x.Descrição)

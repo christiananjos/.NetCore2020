@@ -1,8 +1,6 @@
-﻿using Pizzaria.Model.Interfaces;
-
-namespace Pizzaria.Model.Models
+﻿namespace Pizzaria.Model.Models
 {
-    public class Cliente : IEntity
+    public class Cliente
     {
         public int Id { get; set; }
         public string NomeCliente { get; set; }

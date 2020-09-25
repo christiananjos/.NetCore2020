@@ -1,10 +1,9 @@
-﻿using Pizzaria.Model.Interfaces;
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace Pizzaria.Model.Models
 {
-    public class Pedido : IEntity
+    public class Pedido
     {
 
         public int Id { get; set; }
