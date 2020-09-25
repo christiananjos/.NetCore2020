@@ -1,6 +1,6 @@
 ﻿namespace Pizzaria.Business.Interfaces
 {
-    public interface IBusiness<T>
+    public interface IBusiness<T> where T : class
     {
 
         public static void Cria(T pedido)
